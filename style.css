@@ -1,0 +1,101 @@
+/*
+Theme Name: lucaslower.com
+Theme URI: https://lucaslower.com
+Author: Lucas Lower
+Version: 1.0
+*/
+
+/*
+possible fonts
+
+Playfair Display (SC)
+Noto Serif
+Josefin Sans?
+Shrikhand??
+Quattrocento
+Goudy Bookletter 1911
+Unna
+IM Fell DW Pica SC
+*/
+
+html{
+  height:100%;
+}
+
+body{
+  margin:0;
+  height:100%;
+  font-size:16px;
+  background:#e5e5e5;
+  color:#353535;
+}
+
+.wrap{
+  width:90%;
+  max-width:1200px;
+  margin:0 auto;
+}
+
+*{
+  box-sizing:border-box;
+}
+
+/* HEADER#PAGE_HEADER */
+
+header#page_header{
+  font-family:'Playfair Display SC', sans-serif;
+  margin:60px auto 30px auto;
+  text-align:center;
+  padding-bottom:20px;
+  border-bottom:1px dashed #353535;
+}
+
+header#page_header h1{
+  font-weight:700;
+  font-size:3.5em;
+  display:inline-block;
+  position:relative;
+  padding-left:160px;
+}
+
+header#page_header h1 img{
+  border-radius:50%;
+  width:120px;
+  height:auto;
+  position:absolute;
+  left:0;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+/* SECTION#PAGE and OTHER LAYOUT*/
+
+section#page{
+
+}
+
+aside#sidebar{
+  width:20%;
+  float:right;
+  padding-left:10px;
+  border-left:1px dashed #353535;
+  height:400px;
+}
+
+section.content{
+  width:80%;
+  float:left;
+  padding:30px 20px 0px 0px;
+}
+
+/* ARTICLES */
+
+article.post h1{
+  font-size:2.5em;
+  font-family:'Quattrocento', sans-serif;
+  margin:0px 0px 20px 0px;
+}
+
+article.post h1 span{
+  margin-right:40px;
+}
