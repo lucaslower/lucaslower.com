@@ -25,10 +25,11 @@
 <body>
 
 <header id="page_header" class="wrap">
-  <h1 class="site_title"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg">Lucas Lower</h1>
+  <h1 class="site_title"><img src="<?php echo get_template_directory_uri(); ?>/img/logo.jpg">Lucas Lower<span>217-454-8240&nbsp;&nbsp;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;&nbsp;&nbsp;<a href="mailto:lucas@lucaslower.com">lucas@lucaslower.com</a></span></h1>
 </header>
 
+<nav class="wrap" id="primary">
+  <?php wp_nav_menu(array('theme_location' => 'primary')); ?>
+</nav>
+
 <section id="page" class="wrap">
-  <aside id="sidebar">
-    
-  </aside>
